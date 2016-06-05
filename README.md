@@ -1,4 +1,4 @@
-ssc-notepad-pp Cookbook
+notepad-pp Cookbook
 ==================
 
 This cookbook installs Notepad++.
@@ -6,10 +6,9 @@ Default version installed is latest available.
 
 Supported versions can be found at: [https://notepad-plus-plus.org/repository/]
 
-
 Attributes
 ==================
-#### ssc-notepad-pp::default
+#### notepad-pp::default
 
 | Key | Type | Description | Default |
 | --- | ---- | ----------- | ------- |
@@ -24,8 +23,6 @@ Usage
 Just include `notepad-pp` in your cookbook:
 
     include_recipe 'notepad-pp'
-	
-
 	
 If you wish to install a specific version e.g: 6.8.8
 
